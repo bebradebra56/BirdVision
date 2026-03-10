@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bird_vision_graph"
+    app:startDestination="@id/birdVisionLoadFragment">
+
+    <fragment
+        android:id="@+id/birdVisionLoadFragment"
+        android:name="com.vision.birdvisionpr.verfs.presentation.ui.load.BirdVisionLoadFragment"
+        android:label="BirdVisionLoadFragment" >
+        <action
+            android:id="@+id/action_birdVisionLoadFragment_to_birdVisionV"
+            app:destination="@id/birdVisionV"
+            app:popUpTo="@id/bird_vision_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/birdVisionV"
+        android:name="com.vision.birdvisionpr.verfs.presentation.ui.view.BirdVisionV"
+        android:label="BirdVisionV" />
+</navigation>

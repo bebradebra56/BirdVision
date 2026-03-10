@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "295104668607",
+    "project_id": "birdvision-f1b0e",
+    "storage_bucket": "birdvision-f1b0e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295104668607:android:0fa344d26a71d3fac9f70a",
+        "android_client_info": {
+          "package_name": "com.vision.birdvisionpr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAflveLe6_fmcYz0ghZ46GK7D9L21LTx88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
