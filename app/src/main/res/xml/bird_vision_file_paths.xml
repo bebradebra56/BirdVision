@@ -2,6 +2,6 @@
 <paths xmlns:android="http://schemas.android.com/apk/res/android">
 
     <files-path
-        name="bubbles_zen_photo_path"
+        name="bird_vision_photo_path"
         path="."/>
 </paths>
